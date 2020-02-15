@@ -8,7 +8,7 @@ import os
 TOKEN = os.getenv("TOKEN")
 
 bot = telebot.TeleBot(TOKEN)
-
+#ahora está comentado
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
